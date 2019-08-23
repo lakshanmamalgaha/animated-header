@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "search-bar-animation",
+    "description": "This project is really great.",
+    "slug": "search-bar-animation",
+    "privacy": "public",
+    "sdkVersion": "28.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#7770000"
+    },
+    "isDetached": true,
+    "detach": {
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.6.4-sdk28.0.0-9ba3198a-7d95-4769-9e16-178a37a70cae.tar.gz"
+    },
+    "scheme": "exp26f912ca404f416db38dd381896d70ef",
+    "android": {
+      "package": "com.animated",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
+  }
+}
